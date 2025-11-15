@@ -11,6 +11,11 @@ app.get('/tat', (req, res) => {
   res.json("Heloooooo");
 });
 
+app.get('/navi', (res) => {
+      res.json("response from navi apei");
+  
+});
+
 
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
